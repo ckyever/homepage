@@ -11,7 +11,7 @@ import landingPage from "./assets/screenshots/landing-page.png";
 import calculator from "./assets/screenshots/calculator.png";
 import adminDashboard from "./assets/screenshots/dashboard.png";
 
-export function generateProjectListElement(parentElement) {
+export function appendProjects(parentElement) {
   const projectList = [
     new Project(
       "How Does The Knight Move",

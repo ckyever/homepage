@@ -1,3 +1,6 @@
+import githubLogo from "./assets/icons/github.svg";
+import openInNewTabLogo from "./assets/icons/open-in-new.svg";
+
 export class Project {
   constructor(
     title,
@@ -10,17 +13,17 @@ export class Project {
     this.title = title;
     this.description = description;
     this.screenshot = screenshot;
-    this.screenshotAlt = screenshotAlt``;
+    this.screenshotAlt = screenshotAlt;
     this.demoLink = demoLink;
     this.githubLink = githubLink;
   }
 
   generateCardElement() {
-    const cardElement = document.createElement("div");
-    cardElement.class = "card";
+    const cardElement = document.createElement("li");
+    cardElement.classList = "card";
 
     const screenshotLink = document.createElement("a");
-    screenshotLink.class = "screenshot";
+    screenshotLink.classList = "screenshot";
     screenshotLink.href = this.demoLink;
     screenshotLink.target = "_blank";
 
@@ -32,22 +35,22 @@ export class Project {
     cardElement.appendChild(screenshotLink);
 
     const projectTextContainer = document.createElement("div");
-    projectTextContainer.class = "project-text";
+    projectTextContainer.classList = "project-text";
 
     const projectTitle = document.createElement("h3");
     projectTitle.textContent = this.title;
     projectTextContainer.appendChild(projectTitle);
 
     const linkContainer = document.createElement("div");
-    linkContainer.class = "link-container";
+    linkContainer.classList = "link-container";
 
     const githubLink = document.createElement("a");
     githubLink.href = this.githubLink;
     githubLink.target = "_blank";
 
     const githubIcon = document.createElement("img");
-    githubIcon.class = "icon";
-    githubIcon.src = "assets/icons/github.svg";
+    githubIcon.classList = "icon";
+    githubIcon.src = githubLogo;
     githubIcon.alt = "github logo";
     githubLink.append(githubIcon);
     linkContainer.appendChild(githubLink);
@@ -57,8 +60,8 @@ export class Project {
     demoLink.target = "_blank";
 
     const openInNewTabIcon = document.createElement("img");
-    openInNewTabIcon.class = "icon";
-    openInNewTabIcon.src = "assets/icons/open-in-new.svg";
+    openInNewTabIcon.classList = "icon";
+    openInNewTabIcon.src = openInNewTabLogo;
     openInNewTabIcon.alt = "open in new tab icon";
     demoLink.append(openInNewTabIcon);
     linkContainer.appendChild(demoLink);
@@ -66,7 +69,7 @@ export class Project {
     projectTextContainer.appendChild(linkContainer);
 
     const descriptionText = document.createElement("p");
-    descriptionText.class = "description";
+    descriptionText.classList = "description";
     descriptionText.textContent = this.description;
 
     projectTextContainer.appendChild(descriptionText);

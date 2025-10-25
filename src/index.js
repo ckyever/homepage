@@ -1,5 +1,5 @@
 import "./styles.css";
-import { generateProjectListElement } from "./projectList";
+import { appendProjects } from "./projectList";
 
-const workElement = document.querySelector("#work");
-workElement.appendChild(generateProjectListElement());
+const projectList = document.querySelector("#project-list");
+appendProjects(projectList);
