@@ -15,7 +15,7 @@ export function appendProjects(parentElement) {
   const projectList = [
     new Project(
       "How Does The Knight Move",
-      "Calculates the shortest possible route for a knight on a chessboard",
+      "Calculates the shortest path for a knight on a chessboard",
       howDoesTheKnightMove,
       "knight on a green and white chessboard",
       "https://ckyever.github.io/how-does-the-knight-move",
