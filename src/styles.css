@@ -167,6 +167,8 @@ h2 {
   transform: translateX(-50%);
   white-space: nowrap;
   color: var(--alt-text-color);
+  font-size: 2.4rem;
+  font-weight: 400;
 }
 
 #profile-picture {
