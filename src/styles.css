@@ -80,7 +80,8 @@ h6 {
 
 :root {
   --main-background-color: #f8f8f8;
-  --alt-background-color: #0891b2;
+  --alt-background-color: #b46142;
+  --card-background-color: #fcf4e6;
   --main-text-color: #000000;
   --alt-text-color: #ffffff;
   --slight-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
@@ -202,7 +203,7 @@ a .icon:hover {
   gap: 16px;
   margin: 40px 0;
   padding: 40px 20px 20px 20px;
-  background-color: var(--main-background-color);
+  background-color: var(--card-background-color);
   box-shadow: var(--slight-shadow);
 }
 
@@ -229,6 +230,7 @@ a .icon:hover {
 }
 
 #project-list li {
+  background-color: var(--card-background-color);
   box-shadow: var(--slight-shadow);
   list-style-type: none;
   width: 412px;
@@ -268,7 +270,7 @@ a .icon:hover {
 }
 
 #footer-text .link-container .icon {
-  width: 50px;
+  width: 40px;
 }
 
 #footer-picture {
