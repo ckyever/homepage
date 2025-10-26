@@ -149,6 +149,14 @@ a .icon:hover {
   transform: scale(1.1);
 }
 
+.card {
+  transition: transform 0.25s ease-out;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
 .link-container {
   display: flex;
   gap: 8px;
