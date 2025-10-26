@@ -118,6 +118,7 @@ h3 {
 .container {
   display: flex;
   justify-content: center;
+  margin: 0 600px;
 }
 
 .icon {
@@ -169,4 +170,43 @@ h3 {
 #about .link-container {
   margin-top: 20px;
   align-self: flex-end;
+}
+
+#projects {
+  margin: 80px 0;
+}
+
+#projects .container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#project-list {
+  display: grid;
+  padding: 0;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+#project-list li {
+  box-shadow: var(--slight-shadow);
+  list-style-type: none;
+}
+
+#project-list .icon {
+  width: 28px;
+}
+
+#project-list .project-text {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+
+#project-list .project-text .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

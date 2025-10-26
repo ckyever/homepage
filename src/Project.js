@@ -37,9 +37,12 @@ export class Project {
     const projectTextContainer = document.createElement("div");
     projectTextContainer.classList = "project-text";
 
+    const projectTitleContainer = document.createElement("div");
+    projectTitleContainer.classList = "title";
+
     const projectTitle = document.createElement("h3");
     projectTitle.textContent = this.title;
-    projectTextContainer.appendChild(projectTitle);
+    projectTitleContainer.appendChild(projectTitle);
 
     const linkContainer = document.createElement("div");
     linkContainer.classList = "link-container";
@@ -66,7 +69,8 @@ export class Project {
     demoLink.append(openInNewTabIcon);
     linkContainer.appendChild(demoLink);
 
-    projectTextContainer.appendChild(linkContainer);
+    projectTitleContainer.appendChild(linkContainer);
+    projectTextContainer.appendChild(projectTitleContainer);
 
     const descriptionText = document.createElement("p");
     descriptionText.classList = "description";
