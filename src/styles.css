@@ -107,6 +107,13 @@ header::after {
 footer {
   background-color: var(--alt-background-color);
   color: var(--alt-text-color);
+  padding: 80px 0;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h1,
@@ -126,6 +133,11 @@ h3 {
 }
 
 .link-container {
+  display: flex;
+  gap: 8px;
+}
+
+.footer-container {
   display: flex;
   gap: 8px;
 }
@@ -209,4 +221,27 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+#footer-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 1.4rem;
+}
+
+#footer-text .email {
+  color: var(--alt-text-color);
+}
+
+#footer-text .link-container {
+  gap: 28px;
+}
+
+#footer-text .link-container .icon {
+  width: 50px;
+}
+
+#footer-picture {
+  width: 600px;
 }
