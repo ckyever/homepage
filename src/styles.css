@@ -83,6 +83,7 @@ h6 {
   --alt-background-color: #b46142;
   --card-background-color: #fcf4e6;
   --main-text-color: #000000;
+  --detail-text-color: #626262;
   --alt-text-color: #ffffff;
   --slight-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
 }
@@ -209,6 +210,10 @@ a .icon:hover {
   box-shadow: var(--slight-shadow);
 }
 
+#about p {
+  color: var(--detail-text-color);
+}
+
 #about .link-container {
   margin-top: 20px;
   align-self: flex-end;
@@ -248,6 +253,10 @@ a .icon:hover {
   flex-direction: column;
   padding: 20px;
   gap: 20px;
+}
+
+#project-list .project-text p {
+  color: var(--detail-text-color);
 }
 
 #project-list .project-text .title {
