@@ -23,7 +23,7 @@ export function appendProjects(parentElement) {
     ),
     new Project(
       "Doodly Do",
-      "Todo list website",
+      "Create and track todo lists",
       doodlyDo,
       "todo lists in a grid",
       "https://ckyever.github.io/doodly-do",
@@ -55,7 +55,7 @@ export function appendProjects(parentElement) {
     ),
     new Project(
       "Restaurant Website",
-      "Website for a fictional ravioli restaurant",
+      "Website for a fictional pasta restaurant",
       restaurantPage,
       "home page of a ravioli restaurant",
       "https://ckyever.github.io/restaurant-page",
