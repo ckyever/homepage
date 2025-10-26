@@ -77,3 +77,75 @@ h6 {
 }
 
 /* End of CSS Reset */
+
+:root {
+  --main-background-color: #f8f8f8;
+  --alt-background-color: #0891b2;
+  --main-text-color: #000000;
+  --alt-text-color: #ffffff;
+  --slight-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  background-color: var(--main-background-color);
+}
+
+header::after {
+  background-color: var(--alt-background-color);
+  display: block;
+  content: "";
+  height: 1000px;
+  width: 100vw;
+  position: absolute;
+  top: -600px;
+  z-index: -1;
+  transform: skewY(-8deg);
+  box-shadow: var(--slight-shadow);
+}
+
+footer {
+  background-color: var(--alt-background-color);
+  color: var(--alt-text-color);
+}
+
+.container {
+  margin: 0 80px;
+}
+
+.icon {
+  width: 30px;
+}
+
+.link-container {
+  display: flex;
+  gap: 8px;
+}
+
+#profile-container {
+  display: flex;
+  margin: 80px 0;
+}
+
+#profile-pic-container {
+  position: relative;
+  box-shadow: var(--slight-shadow);
+}
+
+#profile-pic-container h1 {
+  position: absolute;
+  bottom: 0;
+  color: var(--alt-text-color);
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0;
+  padding: 10px 20px;
+  background-color: var(--main-background-color);
+  box-shadow: var(--slight-shadow);
+}
+
+#about .link-container {
+  align-self: flex-end;
+}
