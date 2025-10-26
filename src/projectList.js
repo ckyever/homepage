@@ -38,20 +38,20 @@ export function appendProjects(parentElement) {
       "https://github.com/ckyever/sunk-cost-fleet",
     ),
     new Project(
-      "Slide Puzzle",
-      "Solve a 15 slide puzzle",
-      slidePuzzle,
-      "15 tile slide puzzle",
-      "https://ckyever.github.io/slide-puzzle",
-      "https://github.com/ckyever/slide-puzzle",
-    ),
-    new Project(
       "It's Always Sunny",
       "View the weather forecast for any location",
       itsAlwaysSunny,
       "weather forecast",
       "https://ckyever.github.io/its-always-sunny",
       "https://github.com/ckyever/its-always-sunny",
+    ),
+    new Project(
+      "Slide Puzzle",
+      "Solve a 15 slide puzzle",
+      slidePuzzle,
+      "15 tile slide puzzle",
+      "https://ckyever.github.io/slide-puzzle",
+      "https://github.com/ckyever/slide-puzzle",
     ),
     new Project(
       "Restaurant Website",
@@ -70,20 +70,20 @@ export function appendProjects(parentElement) {
       "https://github.com/ckyever/landing-page",
     ),
     new Project(
-      "Calculator",
-      "Basic calculator",
-      calculator,
-      "calculator",
-      "https://ckyever.github.io/calculator",
-      "https://github.com/ckyever/calculator",
-    ),
-    new Project(
       "Dashboard",
       "Dashboard for a fictional website",
       adminDashboard,
       "blue and white dashboard page",
       "https://ckyever.github.io/admin-dashboard",
       "https://github.com/ckyever/admin-dashboard",
+    ),
+    new Project(
+      "Calculator",
+      "Basic calculator",
+      calculator,
+      "calculator",
+      "https://ckyever.github.io/calculator",
+      "https://github.com/ckyever/calculator",
     ),
   ];
 
