@@ -122,6 +122,11 @@ h3 {
   font-family: "JetBrains Mono", sans-serif;
 }
 
+h1,
+h2 {
+  font-size: 1.8rem;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -171,12 +176,12 @@ h3 {
 #about {
   display: flex;
   flex-direction: column;
+  width: 2000px;
   gap: 16px;
   margin: 40px 0;
   padding: 40px 20px 20px 20px;
   background-color: var(--main-background-color);
   box-shadow: var(--slight-shadow);
-  font-size: 1.4rem;
 }
 
 #about .link-container {
