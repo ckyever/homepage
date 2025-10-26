@@ -84,7 +84,7 @@ h6 {
   --card-background-color: #fcf4e6;
   --main-text-color: #000000;
   --alt-text-color: #ffffff;
-  --slight-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  --slight-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 body {
@@ -277,6 +277,7 @@ a .icon:hover {
 
 #footer-picture {
   width: 600px;
+  box-shadow: var(--slight-shadow);
 }
 
 @media (max-width: 1325px) and (min-width: 750px) {
