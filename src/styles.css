@@ -218,7 +218,7 @@ h2 {
 #project-list li {
   box-shadow: var(--slight-shadow);
   list-style-type: none;
-  width: 414px;
+  width: 412px;
   justify-self: center;
 }
 
