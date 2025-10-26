@@ -91,6 +91,13 @@ body {
   font-family: "Noto Sans", sans-serif;
 }
 
+header,
+section,
+footer {
+  display: flex;
+  justify-content: center;
+}
+
 header::after {
   background-color: var(--alt-background-color);
   display: block;
@@ -130,6 +137,7 @@ h2 {
 .container {
   display: flex;
   justify-content: center;
+  width: 1320px;
   margin: 0 600px;
 }
 
@@ -211,6 +219,8 @@ h2 {
 #project-list li {
   box-shadow: var(--slight-shadow);
   list-style-type: none;
+  width: 414px;
+  justify-self: center;
 }
 
 #project-list .icon {
