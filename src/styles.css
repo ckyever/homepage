@@ -147,8 +147,8 @@ h2 {
   transition: transform 0.25s ease-out;
 }
 
-a .icon:hover {
-  transform: scale(1.1);
+a:hover .icon {
+  transform: translateY(-4px);
 }
 
 .card {
