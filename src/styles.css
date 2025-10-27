@@ -179,7 +179,6 @@ a:hover .icon {
 
 #profile-pic-container {
   position: relative;
-  box-shadow: var(--slight-shadow);
 }
 
 #profile-pic-container h1 {
@@ -193,10 +192,34 @@ a:hover .icon {
   background-color: rgba(0, 0, 0, 0.4);
   width: 100%;
   padding-left: 8px;
+  transition: transform 0.5s ease-in-out 0.1s;
+  will-change: transform;
+}
+
+#profile-pic-container h1 span {
+  display: inline-block;
+  transition: transform 0.5s ease-in-out 0.1s;
+  will-change: transform;
+}
+
+#profile-pic-container:hover h1 {
+  transform: rotateY(180deg);
+}
+
+/* Keep text the same orientation */
+#profile-pic-container:hover h1 span {
+  transform: rotateY(180deg);
 }
 
 #profile-picture {
   width: 1400px;
+  box-shadow: var(--slight-shadow);
+  transition: transform 0.5s ease-in-out 0.1s;
+  will-change: transform;
+}
+
+#profile-pic-container:hover #profile-picture {
+  transform: rotateY(180deg);
 }
 
 #about {
