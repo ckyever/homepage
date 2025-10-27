@@ -186,12 +186,13 @@ a:hover .icon {
 }
 
 #profile-container {
+  opacity: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 80px 0;
   width: 1000px;
-  animation: 1s fade-in 0.6s 1 ease-in-out backwards;
+  animation: 1s fade-in 0.6s 1 ease-in-out forwards;
 }
 
 @keyframes fade-in {
@@ -269,8 +270,9 @@ a:hover .icon {
 }
 
 #projects {
+  opacity: 0;
   margin: 80px 0;
-  animation: 1s fade-in 1s 1 ease-in-out backwards;
+  animation: 1s fade-in 1s 1 ease-in-out forwards;
 }
 
 #projects .container {
