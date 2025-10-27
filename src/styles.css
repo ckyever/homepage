@@ -86,6 +86,7 @@ h6 {
   --detail-text-color: #626262;
   --alt-text-color: #ffffff;
   --slight-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+  --stripe-skew: -10deg;
 }
 
 body {
@@ -100,7 +101,7 @@ footer {
   justify-content: center;
 }
 
-header::after {
+header #stripe {
   background-color: var(--alt-background-color);
   display: block;
   content: "";
@@ -109,8 +110,23 @@ header::after {
   position: absolute;
   top: -700px;
   z-index: -1;
-  transform: skewY(-10deg);
+  transform: skewY(var(--stripe-skew));
   box-shadow: var(--slight-shadow);
+  animation: 1.5s bounce-down 1 ease-in-out;
+}
+
+@keyframes bounce-down {
+  0% {
+    transform: skewY(var(--stripe-skew)) translateY(-800px);
+  }
+
+  80% {
+    transform: skewY(var(--stripe-skew)) translateY(40px);
+  }
+
+  100% {
+    transform: skewY(var(--stripe-skew)) translateY(0px);
+  }
 }
 
 footer {
@@ -349,14 +365,17 @@ a:hover .icon {
 }
 
 @media (max-width: 750px) {
+  :root {
+    --stripe-skew: -30deg;
+  }
+
   h2,
   h3 {
     text-align: center;
   }
 
-  header::after {
+  header #stripe {
     top: -750px;
-    transform: skewY(-30deg);
   }
 
   footer {
