@@ -133,12 +133,23 @@ footer {
   background-color: var(--alt-background-color);
   color: var(--alt-text-color);
   padding: 80px 0;
+  position: relative;
 }
 
 footer .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+footer #copyright {
+  position: absolute;
+  bottom: 8px;
+}
+
+footer #source-code {
+  color: white;
+  text-decoration-style: dotted;
 }
 
 h1,
@@ -150,6 +161,10 @@ h3 {
 h1,
 h2 {
   font-size: 1.8rem;
+}
+
+a {
+  text-underline-offset: 2px;
 }
 
 .container {
