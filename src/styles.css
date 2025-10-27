@@ -117,7 +117,7 @@ header #stripe {
 
 @keyframes bounce-down {
   0% {
-    transform: skewY(var(--stripe-skew)) translateY(-800px);
+    transform: skewY(var(--stripe-skew)) translateY(-600px);
   }
 
   80% {
@@ -191,7 +191,7 @@ a:hover .icon {
   align-items: center;
   margin: 80px 0;
   width: 1000px;
-  animation: 1s fade-in 1s 1 ease-in-out backwards;
+  animation: 1s fade-in 0.6s 1 ease-in-out backwards;
 }
 
 @keyframes fade-in {
@@ -270,7 +270,7 @@ a:hover .icon {
 
 #projects {
   margin: 80px 0;
-  animation: 1s fade-in 1.5s 1 ease-in-out backwards;
+  animation: 1s fade-in 1s 1 ease-in-out backwards;
 }
 
 #projects .container {
