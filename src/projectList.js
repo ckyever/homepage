@@ -55,7 +55,7 @@ export function appendProjects(parentElement) {
     ),
     new Project(
       "Restaurant Website",
-      "Website for a fictional pasta restaurant",
+      "Website for a pasta restaurant",
       restaurantPage,
       "home page of a ravioli restaurant",
       "https://ckyever.github.io/restaurant-page",
@@ -63,7 +63,7 @@ export function appendProjects(parentElement) {
     ),
     new Project(
       "Tennis Club Landing Page",
-      "Landing page for a fictional tennis club",
+      "Landing page for a tennis club",
       landingPage,
       "home page of a tennis club",
       "https://ckyever.github.io/landing-page",
@@ -71,7 +71,7 @@ export function appendProjects(parentElement) {
     ),
     new Project(
       "Dashboard",
-      "Dashboard for a fictional website",
+      "Design for an admin dashboard page",
       adminDashboard,
       "blue and white dashboard page",
       "https://ckyever.github.io/admin-dashboard",
@@ -79,7 +79,7 @@ export function appendProjects(parentElement) {
     ),
     new Project(
       "Calculator",
-      "Basic calculator",
+      "Basic calculator for the web",
       calculator,
       "calculator",
       "https://ckyever.github.io/calculator",
