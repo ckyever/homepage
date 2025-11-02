@@ -1,6 +1,7 @@
 import { Project } from "./Project.js";
 
 // Screenshot Images
+import cvBuilder from "./assets/screenshots/cv-builder.png";
 import howDoesTheKnightMove from "./assets/screenshots/how-does-the-knight-move.png";
 import doodlyDo from "./assets/screenshots/doodly-do.png";
 import sunkCostFleet from "./assets/screenshots/sunk-cost-fleet.png";
@@ -13,6 +14,14 @@ import adminDashboard from "./assets/screenshots/dashboard.png";
 
 export function appendProjects(parentElement) {
   const projectList = [
+    new Project(
+      "CV Builder",
+      "Edit and personalise your own CV",
+      cvBuilder,
+      "editor for a resume",
+      "https://cv-application-bg8.pages.dev/",
+      "https://github.com/ckyever/cv-application",
+    ),
     new Project(
       "How Does The Knight Move",
       "Calculates the shortest path for a knight on a chessboard",
