@@ -1,6 +1,7 @@
 import { Project } from "./Project.js";
 
 // Screenshot Images
+import pokemems from "./assets/screenshots/pokemems.png";
 import cvBuilder from "./assets/screenshots/cv-builder.png";
 import howDoesTheKnightMove from "./assets/screenshots/how-does-the-knight-move.png";
 import doodlyDo from "./assets/screenshots/doodly-do.png";
@@ -15,11 +16,19 @@ import adminDashboard from "./assets/screenshots/dashboard.png";
 export function appendProjects(parentElement) {
   const projectList = [
     new Project(
+      "PokéMems",
+      "Memory game using Pokémon sprites",
+      pokemems,
+      "pokémon in wild grass",
+      "https://435564d2.pokemems.pages.dev",
+      "https://github.com/ckyever/pokemems",
+    ),
+    new Project(
       "CV Builder",
       "Edit and personalise your own CV",
       cvBuilder,
       "editor for a resume",
-      "https://cv-application-bg8.pages.dev/",
+      "https://cv-application-bg8.pages.dev",
       "https://github.com/ckyever/cv-application",
     ),
     new Project(
