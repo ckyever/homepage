@@ -20,7 +20,7 @@ export function appendProjects(parentElement) {
       "Memory game using Pokémon sprites",
       pokemems,
       "pokémon in wild grass",
-      "https://435564d2.pokemems.pages.dev",
+      "https://pokemems.pages.dev",
       "https://github.com/ckyever/pokemems",
     ),
     new Project(
