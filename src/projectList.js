@@ -1,6 +1,7 @@
 import { Project } from "./Project.js";
 
 // Screenshot Images
+import waxdisc from "./assets/screenshots/waxdisc.png";
 import pokemems from "./assets/screenshots/pokemems.png";
 import cvBuilder from "./assets/screenshots/cv-builder.png";
 import howDoesTheKnightMove from "./assets/screenshots/how-does-the-knight-move.png";
@@ -15,6 +16,14 @@ import adminDashboard from "./assets/screenshots/dashboard.png";
 
 export function appendProjects(parentElement) {
   const projectList = [
+    new Project(
+      "WAXDISC",
+      "E-commerce website for a vinyl record store",
+      waxdisc,
+      "vinyl record e-commerce website",
+      "https://waxdisc.pages.dev",
+      "https://github.com/ckyever/waxdisc",
+    ),
     new Project(
       "PokéMems",
       "Memory game using Pokémon sprites",
