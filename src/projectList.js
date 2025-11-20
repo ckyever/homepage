@@ -1,6 +1,7 @@
 import { Project } from "./Project.js";
 
 // Screenshot Images
+import thegroupchat from "./assets/screenshots/thegroupchat.png";
 import waxdisc from "./assets/screenshots/waxdisc.png";
 import pokemems from "./assets/screenshots/pokemems.png";
 import cvBuilder from "./assets/screenshots/cv-builder.png";
@@ -16,6 +17,14 @@ import adminDashboard from "./assets/screenshots/dashboard.png";
 
 export function appendProjects(parentElement) {
   const projectList = [
+    new Project(
+      "TheGroupChat",
+      "Message board website styled like an instant messaging app",
+      thegroupchat,
+      "messaging website",
+      "https://thegroupchat-o0fa.onrender.com/chat",
+      "https://github.com/ckyever/thegroupchat",
+    ),
     new Project(
       "WAXDISC",
       "E-commerce website for a vinyl record store",
