@@ -1,6 +1,7 @@
 import { Project } from "./Project.js";
 
 // Screenshot Images
+import clubhaus from "./assets/screenshots/clubhaus.png";
 import dropshop from "./assets/screenshots/dropshop.png";
 import thegroupchat from "./assets/screenshots/thegroupchat.png";
 import waxdisc from "./assets/screenshots/waxdisc.png";
@@ -19,12 +20,20 @@ import adminDashboard from "./assets/screenshots/dashboard.png";
 export function appendProjects(parentElement) {
   const projectList = [
     new Project(
+      "Clubhaus",
+      "Message board with account creation using PassportJS authentication",
+      clubhaus,
+      "message board website",
+      "https://clubhaus-7tzl.onrender.com",
+      "https://github.com/ckyever/clubhaus",
+    ),
+    new Project(
       "DropShop Inventory Management",
       "Inventory management website for a tennis store",
       dropshop,
       "inventory website for a tennis store",
       "https://dropshop-o3w4.onrender.com",
-      "https://github.com/ckyever/dropshop-inventory-app"
+      "https://github.com/ckyever/dropshop-inventory-app",
     ),
     new Project(
       "How Does The Knight Move",
@@ -32,7 +41,7 @@ export function appendProjects(parentElement) {
       howDoesTheKnightMove,
       "knight on a green and white chessboard",
       "https://ckyever.github.io/how-does-the-knight-move",
-      "https://github.com/ckyever/how-does-the-knight-move"
+      "https://github.com/ckyever/how-does-the-knight-move",
     ),
     new Project(
       "TheGroupChat",
@@ -40,7 +49,7 @@ export function appendProjects(parentElement) {
       thegroupchat,
       "messaging website",
       "https://thegroupchat-o0fa.onrender.com/chat",
-      "https://github.com/ckyever/thegroupchat"
+      "https://github.com/ckyever/thegroupchat",
     ),
     new Project(
       "WAXDISC",
@@ -48,7 +57,7 @@ export function appendProjects(parentElement) {
       waxdisc,
       "vinyl record e-commerce website",
       "https://waxdisc.pages.dev",
-      "https://github.com/ckyever/waxdisc"
+      "https://github.com/ckyever/waxdisc",
     ),
     new Project(
       "PokéMems",
@@ -56,7 +65,7 @@ export function appendProjects(parentElement) {
       pokemems,
       "pokémon in wild grass",
       "https://pokemems.pages.dev",
-      "https://github.com/ckyever/pokemems"
+      "https://github.com/ckyever/pokemems",
     ),
     new Project(
       "CV Builder",
@@ -64,7 +73,7 @@ export function appendProjects(parentElement) {
       cvBuilder,
       "editor for a resume",
       "https://cv-application-bg8.pages.dev",
-      "https://github.com/ckyever/cv-application"
+      "https://github.com/ckyever/cv-application",
     ),
     new Project(
       "Sunk Cost Fleet",
@@ -72,7 +81,7 @@ export function appendProjects(parentElement) {
       sunkCostFleet,
       "battleships board game",
       "https://ckyever.github.io/sunk-cost-fleet",
-      "https://github.com/ckyever/sunk-cost-fleet"
+      "https://github.com/ckyever/sunk-cost-fleet",
     ),
     new Project(
       "Doodly Do",
@@ -80,7 +89,7 @@ export function appendProjects(parentElement) {
       doodlyDo,
       "todo lists in a grid",
       "https://ckyever.github.io/doodly-do",
-      "https://github.com/ckyever/doodly-do"
+      "https://github.com/ckyever/doodly-do",
     ),
     new Project(
       "It's Always Sunny",
@@ -88,7 +97,7 @@ export function appendProjects(parentElement) {
       itsAlwaysSunny,
       "weather forecast",
       "https://ckyever.github.io/its-always-sunny",
-      "https://github.com/ckyever/its-always-sunny"
+      "https://github.com/ckyever/its-always-sunny",
     ),
     new Project(
       "Restaurant Website",
@@ -96,7 +105,7 @@ export function appendProjects(parentElement) {
       restaurantPage,
       "home page of a ravioli restaurant",
       "https://ckyever.github.io/restaurant-page",
-      "https://github.com/ckyever/restaurant-page"
+      "https://github.com/ckyever/restaurant-page",
     ),
     new Project(
       "Slide Puzzle",
@@ -104,7 +113,7 @@ export function appendProjects(parentElement) {
       slidePuzzle,
       "15 tile slide puzzle",
       "https://ckyever.github.io/slide-puzzle",
-      "https://github.com/ckyever/slide-puzzle"
+      "https://github.com/ckyever/slide-puzzle",
     ),
     new Project(
       "Tennis Club Landing Page",
@@ -112,7 +121,7 @@ export function appendProjects(parentElement) {
       landingPage,
       "home page of a tennis club",
       "https://ckyever.github.io/landing-page",
-      "https://github.com/ckyever/landing-page"
+      "https://github.com/ckyever/landing-page",
     ),
     new Project(
       "Dashboard",
@@ -120,7 +129,7 @@ export function appendProjects(parentElement) {
       adminDashboard,
       "blue and white dashboard page",
       "https://ckyever.github.io/admin-dashboard",
-      "https://github.com/ckyever/admin-dashboard"
+      "https://github.com/ckyever/admin-dashboard",
     ),
     new Project(
       "Calculator",
@@ -128,7 +137,7 @@ export function appendProjects(parentElement) {
       calculator,
       "calculator",
       "https://ckyever.github.io/calculator",
-      "https://github.com/ckyever/calculator"
+      "https://github.com/ckyever/calculator",
     ),
   ];
 
