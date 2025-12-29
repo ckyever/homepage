@@ -1,6 +1,7 @@
 import { Project } from "./Project.js";
 
 // Screenshot Images
+import ckylogs from "./assets/screenshots/ckylogs.png";
 import nimbus from "./assets/screenshots/nimbus.png";
 import clubhaus from "./assets/screenshots/clubhaus.png";
 import dropshop from "./assets/screenshots/dropshop.png";
@@ -20,6 +21,14 @@ import adminDashboard from "./assets/screenshots/dashboard.png";
 
 export function appendProjects(parentElement) {
   const projectList = [
+    new Project(
+      "Ckylogs",
+      "Blogging API that powers separate viewing and editing frontends",
+      ckylogs,
+      "blogging website",
+      "https://ckylogs.pages.dev",
+      "https://github.com/ckyever/ckylogs",
+    ),
     new Project(
       "Nimbus",
       "Personal file storage system",
