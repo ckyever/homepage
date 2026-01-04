@@ -1,6 +1,7 @@
 import { Project } from "./Project.js";
 
 // Screenshot Images
+import wheresWooper from "./assets/screenshots/wheres-wooper.png";
 import ckylogs from "./assets/screenshots/ckylogs.png";
 import nimbus from "./assets/screenshots/nimbus.png";
 import clubhaus from "./assets/screenshots/clubhaus.png";
@@ -21,6 +22,14 @@ import adminDashboard from "./assets/screenshots/dashboard.png";
 
 export function appendProjects(parentElement) {
   const projectList = [
+    new Project(
+      "Where's Wooper",
+      "Where's Wally but with randomly generated Pokémon",
+      wheresWooper,
+      "lots of Pokémon on grass near the ocean",
+      "https://wheres-wooper.pages.dev",
+      "https://github.com/ckyever/wheres-wooper",
+    ),
     new Project(
       "Ckylogs",
       "Blogging API that powers separate viewing and editing frontends",
