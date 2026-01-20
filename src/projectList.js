@@ -1,6 +1,7 @@
 import { Project } from "./Project.js";
 
 // Screenshot Images
+import yeetyah from "./assets/screenshots/yeetyah.png";
 import wheresWooper from "./assets/screenshots/wheres-wooper.png";
 import ckylogs from "./assets/screenshots/ckylogs.png";
 import nimbus from "./assets/screenshots/nimbus.png";
@@ -22,6 +23,14 @@ import adminDashboard from "./assets/screenshots/dashboard.png";
 
 export function appendProjects(parentElement) {
   const projectList = [
+    new Project(
+      "Yeetyah",
+      "Instant messaging chat website",
+      yeetyah,
+      "chat messaging website",
+      "https://yeetyah.pages.dev",
+      "https://github.com/ckyever/yeetyah",
+    ),
     new Project(
       "Where's Wooper",
       "Where's Wally but with randomly generated Pokémon",
